@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- dark theme -->
+    <img class="dark-mode js-dark-mode" src="images/dark-mode.png" alt="">
+
+    <main class="main-container js-main-container">
+        <div class="container">
+            <!-- for image -->
+            <div class="image-container">
+                <img class="moving-img js-image" src="images/girl-closed-eyes.png" alt="">
+            </div>
+            
+            <!-- email fields -->
+            <div class="email-container">
+                <p>Email</p>
+                <input class="input-field" type="email" placeholder="email@domain.com">
+            </div>
+
+            <!-- password fields -->
+            <div class="password-container">
+                <div class="password-label">
+                    <p>Password</p>
+                    <div class="show-function">
+                        <input id="js-checkbox" type="checkbox">
+                        <p>show</p>
+                    </div>  
+                </div>
+                <input class="input-field js-password-field" type="password">
+            </div>
+
+            <!-- login button -->
+            <button class="login-button js-login">Log in</button>
+        </div>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>
